@@ -19,7 +19,6 @@ Built with **vanilla HTML, CSS, and JavaScript** (no frameworks, no build tools)
   - `Enter` → next step
   - `← / →` → move back or forward
   - `Esc` → close modal
-- **Responsive design**: cards switch to single column on smaller screens.
 - **Accessible focus states** for cards, buttons, and radio groups.
 
 ---
@@ -56,9 +55,10 @@ project-root/
 
 ## Limitations
 
-- **Modal close button** currently just logs a message to console (can be extended to actually hide/destroy the modal).
+- **Modal close button** currently not active (can be extended to actually hide/destroy the modal).
 - **No persistence**: selections reset on page reload.
 - **No backend integration**: final step triggers a browser alert and logs results to console.
+- **No responsive design**: improvement could make the cards switch to single column or use scrolling on smaller screens.
 
 ---
 
